@@ -38,4 +38,5 @@ def main(page: ft.Page):
 
 
 # ft.app(main) #Aplicacion de Escritorio por defecto
+
 ft.app(main, view=ft.WEB_BROWSER) #Aplicacion de Web
