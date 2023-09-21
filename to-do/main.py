@@ -13,4 +13,4 @@ def main(page: ft.Page):
     # Agregar el control raíz de la aplicación a la página
     page.add(what_to_do)
 
-ft.app(target=main)
+ft.app(target=main, view=ft.WEB_BROWSER)
